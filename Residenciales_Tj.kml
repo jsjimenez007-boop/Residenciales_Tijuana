@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Residenciales_Tj_Bc</name>
+    <description>Este es un archivo KML base que contiene enlaces a datos remotos.</description>
+    
+    <!-- NetworkLink para cargar un archivo KML remoto -->
+    <NetworkLink>
+      <name>Residenciales_Tj_Avance</name>
+      <Link>
+        <href>https://raw.githubusercontent.com/jsjimenez007-boop/Residenciales_Tijuana/refs/heads/main/Residenciales_Tijuana.kml</href> <!-- URL del archivo KML -->
+        <refreshMode>onInterval</refreshMode> <!-- Refrescar cada cierto tiempo -->
+        <refreshInterval>3600</refreshInterval> <!-- Actualización cada 1 hora -->
+      </Link>
+    </NetworkLink>
+
+  </Document>
+</kml>
