@@ -309,9 +309,8 @@
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
-	<Style id="IconStyle0030000020001010010">
+	<Style id="IconStyle003000002000101001">
 		<IconStyle>
-			<color>00ffffff</color>
 			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
@@ -323,8 +322,9 @@
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
-	<Style id="IconStyle003000002000101001">
+	<Style id="IconStyle0030000020001010010">
 		<IconStyle>
+			<color>00ffffff</color>
 			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
@@ -669,18 +669,6 @@
 			<color>660000ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="PolyStyle002400020001">
-		<LabelStyle>
-			<color>00000000</color>
-			<scale>0</scale>
-		</LabelStyle>
-		<LineStyle>
-			<color>ff00ffaa</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>6600ffff</color>
-		</PolyStyle>
-	</Style>
 	<Style id="PolyStyle002400020000">
 		<LabelStyle>
 			<color>00000000</color>
@@ -691,6 +679,18 @@
 		</LineStyle>
 		<PolyStyle>
 			<color>00f0f0f0</color>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle002400020001">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff00ffaa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>6600ffff</color>
 		</PolyStyle>
 	</Style>
 	<Style id="PolyStyle00240010100000">
@@ -75430,35 +75430,6 @@
 				</MultiGeometry>
 			</Placemark>
 			<Placemark>
-				<name>I11D61d4c4b</name>
-				<styleUrl>#PolyStyle0001020000</styleUrl>
-				<ExtendedData>
-					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
-						<SimpleData name="OID_">0</SimpleData>
-						<SimpleData name="AltMode">0</SimpleData>
-						<SimpleData name="Base">0.00000000000</SimpleData>
-						<SimpleData name="Clamped">-1</SimpleData>
-						<SimpleData name="Shape_Leng">0.02951388800</SimpleData>
-						<SimpleData name="Shape_Area">0.00005425347</SimpleData>
-						<SimpleData name="XMin">507174.66878</SimpleData>
-						<SimpleData name="XMax">507827.58852</SimpleData>
-						<SimpleData name="YMin">3596727.70988</SimpleData>
-						<SimpleData name="YMax">3597594.22581</SimpleData>
-					</SchemaData>
-				</ExtendedData>
-				<MultiGeometry>
-					<Polygon>
-						<outerBoundaryIs>
-							<LinearRing>
-								<coordinates>
-									-116.916666666,32.5078125000001,0 -116.92361111,32.5078125,0 -116.92361111,32.5156250000001,0 -116.916666666,32.5156250000001,0 -116.916666666,32.5078125000001,0 
-								</coordinates>
-							</LinearRing>
-						</outerBoundaryIs>
-					</Polygon>
-				</MultiGeometry>
-			</Placemark>
-			<Placemark>
 				<name>I11D61d4c2c</name>
 				<styleUrl>#PolyStyle0001020000</styleUrl>
 				<ExtendedData>
@@ -75916,35 +75887,6 @@
 							<LinearRing>
 								<coordinates>
 									-116.916666666,32.5468750000001,0 -116.92361111,32.5468750000001,0 -116.92361111,32.5546875000001,0 -116.916666666,32.5546875000001,0 -116.916666666,32.5468750000001,0 
-								</coordinates>
-							</LinearRing>
-						</outerBoundaryIs>
-					</Polygon>
-				</MultiGeometry>
-			</Placemark>
-			<Placemark>
-				<name>I11D61d4d3a</name>
-				<styleUrl>#PolyStyle0001020000</styleUrl>
-				<ExtendedData>
-					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
-						<SimpleData name="OID_">0</SimpleData>
-						<SimpleData name="AltMode">0</SimpleData>
-						<SimpleData name="Base">0.00000000000</SimpleData>
-						<SimpleData name="Clamped">-1</SimpleData>
-						<SimpleData name="Shape_Leng">0.02951388800</SimpleData>
-						<SimpleData name="Shape_Area">0.00005425347</SimpleData>
-						<SimpleData name="XMin">507826.91153</SimpleData>
-						<SimpleData name="XMax">508479.88774</SimpleData>
-						<SimpleData name="YMin">3596728.19850</SimpleData>
-						<SimpleData name="YMax">3597594.75698</SimpleData>
-					</SchemaData>
-				</ExtendedData>
-				<MultiGeometry>
-					<Polygon>
-						<outerBoundaryIs>
-							<LinearRing>
-								<coordinates>
-									-116.909722222,32.5078125,0 -116.916666666,32.5078125000001,0 -116.916666666,32.5156250000001,0 -116.909722222,32.5156250000001,0 -116.909722222,32.5078125,0 
 								</coordinates>
 							</LinearRing>
 						</outerBoundaryIs>
