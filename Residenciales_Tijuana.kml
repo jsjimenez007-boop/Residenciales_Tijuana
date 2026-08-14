@@ -412,22 +412,22 @@
 			<scale>0</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>ff00ff55</color>
+			<color>ff00aaff</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>8000ffff</color>
+			<color>660000ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="PolyStyle002000000">
+	<Style id="PolyStyle00200000000">
 		<LabelStyle>
 			<color>00000000</color>
 			<scale>0</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>ff0000ff</color>
+			<color>ff00ff55</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>660000ff</color>
+			<color>8000ffff</color>
 		</PolyStyle>
 	</Style>
 	<StyleMap id="PolyStyle00210001000">
@@ -519,11 +519,11 @@
 	<StyleMap id="PolyStyle003000000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#PolyStyle002000000</styleUrl>
+			<styleUrl>#PolyStyle00200000000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#PolyStyle004000</styleUrl>
+			<styleUrl>#PolyStyle00400</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="PolyStyle00300000">
@@ -533,7 +533,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#PolyStyle00400</styleUrl>
+			<styleUrl>#PolyStyle004000</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="PolyStyle00400">
@@ -554,7 +554,7 @@
 			<scale>0</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>ff0000ff</color>
+			<color>ff00aaff</color>
 		</LineStyle>
 		<PolyStyle>
 			<color>660000ff</color>
@@ -728,75 +728,6 @@
 			<Folder id="FeatureLayer0">
 				<name>MALLA_AGREGADA</name>
 				<Snippet maxLines="0"></Snippet>
-				<Placemark id="ID_00000">
-					<name>I11C79b2d4b</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11C79b2d4b</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>0</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11C79b2d4b</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-117.1111111109889,32.44531249967219,0 -117.1111111109889,32.45312499931929,0 -117.1180555553196,32.45312499931929,0 -117.1180555553196,32.44531249967218,0 -117.1111111109889,32.44531249967219,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
 				<Placemark id="ID_00001">
 					<name>I11C79b2d2a</name>
 					<Snippet maxLines="0"></Snippet>
@@ -853,82 +784,13 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
 								<LinearRing>
 									<coordinates>
 										-117.1180555553196,32.4609374998658,0 -117.1180555553196,32.46874999951291,0 -117.1249999996502,32.4687499995129,0 -117.1249999996502,32.4609374998658,0 -117.1180555553196,32.4609374998658,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00002">
-					<name>I11C79b2d2d</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11C79b2d2d</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>2</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11C79b2d2d</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-117.1111111109889,32.45312499931929,0 -117.1111111109889,32.4609374998658,0 -117.1180555553196,32.4609374998658,0 -117.1180555553196,32.45312499931929,0 -117.1111111109889,32.45312499931929,0 
 									</coordinates>
 								</LinearRing>
 							</outerBoundaryIs>
@@ -991,7 +853,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -1060,7 +922,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -1129,7 +991,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -1198,7 +1060,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -1267,220 +1129,13 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
 								<LinearRing>
 									<coordinates>
 										-117.1111111109889,32.48437499970652,0 -117.1111111109889,32.49218749935368,0 -117.1180555553196,32.49218749935369,0 -117.1180555553196,32.48437499970652,0 -117.1111111109889,32.48437499970652,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00020">
-					<name>I11C79c1c3a</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11C79c1c3a</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>20</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11C79c1c3a</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-117.1041666666583,32.44531249967218,0 -117.1041666666583,32.45312499931929,0 -117.1111111109889,32.45312499931929,0 -117.1111111109889,32.44531249967219,0 -117.1041666666583,32.44531249967218,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00022">
-					<name>I11C79c1c3b</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11C79c1c3b</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>22</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11C79c1c3b</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-117.0972222214284,32.44531249967218,0 -117.0972222214284,32.45312499931929,0 -117.1041666666583,32.45312499931929,0 -117.1041666666583,32.44531249967218,0 -117.0972222214284,32.44531249967218,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00023">
-					<name>I11C79c1c1c</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11C79c1c1c</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>23</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11C79c1c1c</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-117.1041666666583,32.45312499931929,0 -117.1041666666583,32.4609374998658,0 -117.1111111109889,32.4609374998658,0 -117.1111111109889,32.45312499931929,0 -117.1041666666583,32.45312499931929,0 
 									</coordinates>
 								</LinearRing>
 							</outerBoundaryIs>
@@ -1543,82 +1198,13 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
 								<LinearRing>
 									<coordinates>
 										-117.1041666666583,32.4609374998658,0 -117.1041666666583,32.4687499995129,0 -117.1111111109889,32.46874999951291,0 -117.1111111109889,32.4609374998658,0 -117.1041666666583,32.4609374998658,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00025">
-					<name>I11C79c1c1d</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11C79c1c1d</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>25</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11C79c1c1d</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-117.0972222214284,32.45312499931929,0 -117.0972222214284,32.4609374998658,0 -117.1041666666583,32.4609374998658,0 -117.1041666666583,32.45312499931929,0 -117.0972222214284,32.45312499931929,0 
 									</coordinates>
 								</LinearRing>
 							</outerBoundaryIs>
@@ -1681,82 +1267,13 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
 								<LinearRing>
 									<coordinates>
 										-117.0972222214284,32.4609374998658,0 -117.0972222214284,32.46874999951291,0 -117.1041666666583,32.4687499995129,0 -117.1041666666583,32.4609374998658,0 -117.0972222214284,32.4609374998658,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00031">
-					<name>I11C79c1c2c</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11C79c1c2c</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>31</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11C79c1c2c</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-117.0902777770977,32.4531249993193,0 -117.0902777770977,32.4609374998658,0 -117.0972222214284,32.4609374998658,0 -117.0972222214284,32.45312499931929,0 -117.0902777770977,32.4531249993193,0 
 									</coordinates>
 								</LinearRing>
 							</outerBoundaryIs>
@@ -1819,82 +1336,13 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
 								<LinearRing>
 									<coordinates>
 										-117.0902777770977,32.4609374998658,0 -117.0902777770977,32.46874999951292,0 -117.0972222214284,32.46874999951291,0 -117.0972222214284,32.4609374998658,0 -117.0902777770977,32.4609374998658,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00033">
-					<name>I11C79c1c2d</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11C79c1c2d</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>33</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11C79c1c2d</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-117.0833333327671,32.45312499931929,0 -117.0833333327671,32.46093749986579,0 -117.0902777770977,32.4609374998658,0 -117.0902777770977,32.4531249993193,0 -117.0833333327671,32.45312499931929,0 
 									</coordinates>
 								</LinearRing>
 							</outerBoundaryIs>
@@ -1957,7 +1405,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2026,7 +1474,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2095,7 +1543,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2164,7 +1612,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2233,7 +1681,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2302,7 +1750,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2371,7 +1819,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2440,7 +1888,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2509,7 +1957,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2578,7 +2026,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2647,7 +2095,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2716,7 +2164,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2785,7 +2233,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2854,7 +2302,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2923,7 +2371,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -2992,7 +2440,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3061,7 +2509,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3130,7 +2578,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3199,7 +2647,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3268,7 +2716,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3337,7 +2785,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3406,7 +2854,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3475,7 +2923,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3544,7 +2992,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3613,7 +3061,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3682,7 +3130,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3751,7 +3199,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3820,7 +3268,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3889,7 +3337,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -3958,7 +3406,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4027,7 +3475,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4096,7 +3544,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4165,7 +3613,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4234,7 +3682,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4303,7 +3751,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4372,7 +3820,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4441,7 +3889,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4510,7 +3958,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4579,7 +4027,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4648,7 +4096,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4717,7 +4165,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4786,7 +4234,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4855,7 +4303,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4924,7 +4372,7 @@
 </body>
 
 </html>]]></description>
-					<styleUrl>#PolyStyle00300000</styleUrl>
+					<styleUrl>#PolyStyle003000000</styleUrl>
 					<MultiGeometry>
 						<Polygon>
 							<outerBoundaryIs>
@@ -4941,67 +4389,6 @@
 			<Folder id="FeatureLayer0">
 				<name>PuntosMalla_G</name>
 				<Snippet maxLines="0"></Snippet>
-				<Placemark id="ID_00000">
-					<name>2000</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>0</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2000</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle000210</styleUrl>
-					<Point>
-						<coordinates>-117.1145833331401,32.44921874240082,0</coordinates>
-					</Point>
-				</Placemark>
 				<Placemark id="ID_00001">
 					<name>2001</name>
 					<Snippet maxLines="0"></Snippet>
@@ -5061,67 +4448,6 @@
 					<styleUrl>#IconStyle000210</styleUrl>
 					<Point>
 						<coordinates>-117.1215277774699,32.46484374257292,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00002">
-					<name>2002</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>2</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2002</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle000210</styleUrl>
-					<Point>
-						<coordinates>-117.1145833331401,32.45703124248688,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark id="ID_00003">
@@ -5429,189 +4755,6 @@
 						<coordinates>-117.1145833331399,32.48828124238144,0</coordinates>
 					</Point>
 				</Placemark>
-				<Placemark id="ID_00020">
-					<name>2020</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>20</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2020</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle000210</styleUrl>
-					<Point>
-						<coordinates>-117.1076388888104,32.44921874240085,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00022">
-					<name>2022</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>22</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2022</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle000210</styleUrl>
-					<Point>
-						<coordinates>-117.1006944440309,32.44921874240089,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00023">
-					<name>2023</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>23</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2023</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle000210</styleUrl>
-					<Point>
-						<coordinates>-117.1076388888103,32.45703124248691,0</coordinates>
-					</Point>
-				</Placemark>
 				<Placemark id="ID_00024">
 					<name>2024</name>
 					<Snippet maxLines="0"></Snippet>
@@ -5671,67 +4814,6 @@
 					<styleUrl>#IconStyle000210</styleUrl>
 					<Point>
 						<coordinates>-117.1076388888103,32.46484374257299,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00025">
-					<name>2025</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>25</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2025</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle000210</styleUrl>
-					<Point>
-						<coordinates>-117.1006944440309,32.45703124248695,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark id="ID_00026">
@@ -5795,67 +4877,6 @@
 						<coordinates>-117.1006944440309,32.46484374257303,0</coordinates>
 					</Point>
 				</Placemark>
-				<Placemark id="ID_00031">
-					<name>2031</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>31</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2031</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle000210</styleUrl>
-					<Point>
-						<coordinates>-117.0937499992515,32.45703124248697,0</coordinates>
-					</Point>
-				</Placemark>
 				<Placemark id="ID_00032">
 					<name>2032</name>
 					<Snippet maxLines="0"></Snippet>
@@ -5915,67 +4936,6 @@
 					<styleUrl>#IconStyle000210</styleUrl>
 					<Point>
 						<coordinates>-117.0937499992514,32.46484374257305,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00033">
-					<name>2033</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>33</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2033</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle000210</styleUrl>
-					<Point>
-						<coordinates>-117.0868055549217,32.45703124248699,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark id="ID_00034">
@@ -18181,6 +17141,566 @@
 		</Folder>
 		<Folder>
 			<name>Hechas_Cartas_Fotos</name>
+			<Placemark id="ID_00000">
+				<name>I11C79b2d4b</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11C79b2d4b</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11C79b2d4b</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00300000</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-117.1111111109889,32.44531249967219,0 -117.1111111109889,32.45312499931929,0 -117.1180555553196,32.45312499931929,0 -117.1180555553196,32.44531249967218,0 -117.1111111109889,32.44531249967219,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00033">
+				<name>I11C79c1c2d</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11C79c1c2d</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>33</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11C79c1c2d</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00300000</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-117.0833333327671,32.45312499931929,0 -117.0833333327671,32.46093749986579,0 -117.0902777770977,32.4609374998658,0 -117.0902777770977,32.4531249993193,0 -117.0833333327671,32.45312499931929,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00031">
+				<name>I11C79c1c2c</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11C79c1c2c</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>31</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11C79c1c2c</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00300000</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-117.0902777770977,32.4531249993193,0 -117.0902777770977,32.4609374998658,0 -117.0972222214284,32.4609374998658,0 -117.0972222214284,32.45312499931929,0 -117.0902777770977,32.4531249993193,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00025">
+				<name>I11C79c1c1d</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11C79c1c1d</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>25</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11C79c1c1d</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00300000</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-117.0972222214284,32.45312499931929,0 -117.0972222214284,32.4609374998658,0 -117.1041666666583,32.4609374998658,0 -117.1041666666583,32.45312499931929,0 -117.0972222214284,32.45312499931929,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00023">
+				<name>I11C79c1c1c</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11C79c1c1c</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11C79c1c1c</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00300000</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-117.1041666666583,32.45312499931929,0 -117.1041666666583,32.4609374998658,0 -117.1111111109889,32.4609374998658,0 -117.1111111109889,32.45312499931929,0 -117.1041666666583,32.45312499931929,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00002">
+				<name>I11C79b2d2d</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11C79b2d2d</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11C79b2d2d</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00300000</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-117.1111111109889,32.45312499931929,0 -117.1111111109889,32.4609374998658,0 -117.1180555553196,32.4609374998658,0 -117.1180555553196,32.45312499931929,0 -117.1111111109889,32.45312499931929,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00022">
+				<name>I11C79c1c3b</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11C79c1c3b</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>22</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11C79c1c3b</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00300000</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-117.0972222214284,32.44531249967218,0 -117.0972222214284,32.45312499931929,0 -117.1041666666583,32.45312499931929,0 -117.1041666666583,32.44531249967218,0 -117.0972222214284,32.44531249967218,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00020">
+				<name>I11C79c1c3a</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11C79c1c3a</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11C79c1c3a</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00300000</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-117.1041666666583,32.44531249967218,0 -117.1041666666583,32.45312499931929,0 -117.1111111109889,32.45312499931929,0 -117.1111111109889,32.44531249967219,0 -117.1041666666583,32.44531249967218,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
 			<Placemark id="ID_00028">
 				<name>I11C79c1c4a</name>
 				<open>1</open>
@@ -18238,7 +17758,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -18308,7 +17828,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -18378,7 +17898,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -18448,7 +17968,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -18518,7 +18038,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -18588,7 +18108,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -18658,7 +18178,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -18728,7 +18248,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -18798,7 +18318,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -18868,7 +18388,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -18938,7 +18458,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19008,7 +18528,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19078,7 +18598,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19148,7 +18668,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19218,7 +18738,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19288,7 +18808,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19358,7 +18878,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19428,7 +18948,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19498,7 +19018,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19568,7 +19088,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19638,7 +19158,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19708,7 +19228,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19778,7 +19298,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19848,7 +19368,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19918,7 +19438,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -19988,7 +19508,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20058,7 +19578,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20128,7 +19648,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20198,7 +19718,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20214,7 +19734,7 @@
 			<Placemark>
 				<name>I11D61e4a3b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -20244,7 +19764,7 @@
 			<Placemark>
 				<name>I11D61e4a3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -20274,7 +19794,7 @@
 			<Placemark>
 				<name>I11D61e4c3d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -20358,7 +19878,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20428,7 +19948,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20444,7 +19964,7 @@
 			<Placemark>
 				<name>I11D61e3d2a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -20474,7 +19994,7 @@
 			<Placemark>
 				<name>I11D61e3d1b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -20558,7 +20078,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20628,7 +20148,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20698,7 +20218,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20768,7 +20288,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20838,7 +20358,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20908,7 +20428,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -20978,7 +20498,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21048,7 +20568,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21118,7 +20638,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21188,7 +20708,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21258,7 +20778,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21328,7 +20848,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21398,7 +20918,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21468,7 +20988,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21538,7 +21058,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21608,7 +21128,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21678,7 +21198,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21748,7 +21268,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21818,7 +21338,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21888,7 +21408,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -21958,7 +21478,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22028,7 +21548,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22098,7 +21618,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22168,7 +21688,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22238,7 +21758,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22308,7 +21828,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22378,7 +21898,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22448,7 +21968,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22518,7 +22038,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22588,7 +22108,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22658,7 +22178,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22728,7 +22248,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22798,7 +22318,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22868,7 +22388,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -22938,7 +22458,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23008,7 +22528,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23078,7 +22598,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23148,7 +22668,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23218,7 +22738,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23288,7 +22808,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23358,7 +22878,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23428,7 +22948,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23498,7 +23018,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23568,7 +23088,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23638,7 +23158,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23708,7 +23228,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23778,7 +23298,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23848,7 +23368,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23918,7 +23438,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -23988,7 +23508,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24058,7 +23578,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24128,7 +23648,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24198,7 +23718,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24268,7 +23788,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24338,7 +23858,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24408,7 +23928,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24478,7 +23998,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24548,7 +24068,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24618,7 +24138,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24688,7 +24208,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24758,7 +24278,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24828,7 +24348,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24898,7 +24418,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -24968,7 +24488,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -25038,7 +24558,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -25108,7 +24628,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -25178,7 +24698,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -25248,7 +24768,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -25318,7 +24838,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -25388,7 +24908,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -25458,7 +24978,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -25528,7 +25048,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -25544,7 +25064,7 @@
 			<Placemark>
 				<name>I11D61e3a2a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25574,7 +25094,7 @@
 			<Placemark>
 				<name>I11D61e3a1b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25604,7 +25124,7 @@
 			<Placemark>
 				<name>I11D61e3a1a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25634,7 +25154,7 @@
 			<Placemark>
 				<name>I11D61d4c2c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25664,7 +25184,7 @@
 			<Placemark>
 				<name>I11D61d4c1d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25694,7 +25214,7 @@
 			<Placemark>
 				<name>I11D61d4c1c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25724,7 +25244,7 @@
 			<Placemark>
 				<name>I11D61d4d2c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25754,7 +25274,7 @@
 			<Placemark>
 				<name>I11D61d4d1d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25784,7 +25304,7 @@
 			<Placemark>
 				<name>I11D61d4d1c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25814,7 +25334,7 @@
 			<Placemark>
 				<name>I11D61d4c2d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25844,7 +25364,7 @@
 			<Placemark>
 				<name>I11D61d4c3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25874,7 +25394,7 @@
 			<Placemark>
 				<name>I11D61d4c4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25904,7 +25424,7 @@
 			<Placemark>
 				<name>I11D61d4c3b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25934,7 +25454,7 @@
 			<Placemark>
 				<name>I11D61d4c3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25964,7 +25484,7 @@
 			<Placemark>
 				<name>I11D61d3d4b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -25994,7 +25514,7 @@
 			<Placemark>
 				<name>I11C69f4a4b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26024,7 +25544,7 @@
 			<Placemark>
 				<name>I11C69f4a4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26054,7 +25574,7 @@
 			<Placemark>
 				<name>I11C69f4a3b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26084,7 +25604,7 @@
 			<Placemark>
 				<name>I11C69f4a3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26114,7 +25634,7 @@
 			<Placemark>
 				<name>I11C69f3b4b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26144,7 +25664,7 @@
 			<Placemark>
 				<name>I11C69f3b4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26174,7 +25694,7 @@
 			<Placemark>
 				<name>I11C69f4a4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26204,7 +25724,7 @@
 			<Placemark>
 				<name>I11C69f4a4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26234,7 +25754,7 @@
 			<Placemark>
 				<name>I11C69f4a3d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26264,7 +25784,7 @@
 			<Placemark>
 				<name>I11C69f4a3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26294,7 +25814,7 @@
 			<Placemark>
 				<name>I11C69f3b4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26324,7 +25844,7 @@
 			<Placemark>
 				<name>I11C69f3b4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26354,7 +25874,7 @@
 			<Placemark>
 				<name>I11C69f3b3d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26384,7 +25904,7 @@
 			<Placemark>
 				<name>I11C69f3b3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26414,7 +25934,7 @@
 			<Placemark>
 				<name>I11C69f3a4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26444,7 +25964,7 @@
 			<Placemark>
 				<name>I11D61e3a2d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26474,7 +25994,7 @@
 			<Placemark>
 				<name>I11D61e3a2c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26504,7 +26024,7 @@
 			<Placemark>
 				<name>I11D61e3a1d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26534,7 +26054,7 @@
 			<Placemark>
 				<name>I11D61e3a1c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26564,7 +26084,7 @@
 			<Placemark>
 				<name>I11D61e3b3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26594,7 +26114,7 @@
 			<Placemark>
 				<name>I11D61e3a4b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26624,7 +26144,7 @@
 			<Placemark>
 				<name>I11D61e3a4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26654,7 +26174,7 @@
 			<Placemark>
 				<name>I11D61e3a3b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26684,7 +26204,7 @@
 			<Placemark>
 				<name>I11D61e3a3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26714,7 +26234,7 @@
 			<Placemark>
 				<name>I11D61e3b3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26744,7 +26264,7 @@
 			<Placemark>
 				<name>I11D61e3a4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26774,7 +26294,7 @@
 			<Placemark>
 				<name>I11D61e3a4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26804,7 +26324,7 @@
 			<Placemark>
 				<name>I11D61e3a3d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26834,7 +26354,7 @@
 			<Placemark>
 				<name>I11D61e3a3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -26918,7 +26438,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -26988,7 +26508,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27058,7 +26578,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27128,7 +26648,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27198,7 +26718,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27268,7 +26788,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27338,7 +26858,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27408,7 +26928,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27478,7 +26998,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27548,7 +27068,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27618,7 +27138,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27688,7 +27208,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27758,7 +27278,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27828,7 +27348,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27898,7 +27418,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -27968,7 +27488,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -28038,7 +27558,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -28108,7 +27628,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -28178,7 +27698,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -28248,7 +27768,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -28264,7 +27784,7 @@
 			<Placemark>
 				<name>I11D71b2b1b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28348,7 +27868,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -28418,7 +27938,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -28434,7 +27954,7 @@
 			<Placemark>
 				<name>I11D71b2a2a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28464,7 +27984,7 @@
 			<Placemark>
 				<name>I11C69f4c4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28494,7 +28014,7 @@
 			<Placemark>
 				<name>I11C69f4c3d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28524,7 +28044,7 @@
 			<Placemark>
 				<name>I11C79c2d1a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28554,7 +28074,7 @@
 			<Placemark>
 				<name>I11C79c1d3b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28584,7 +28104,7 @@
 			<Placemark>
 				<name>I11C79c1d3d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28614,7 +28134,7 @@
 			<Placemark>
 				<name>I11C79c3b1b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28644,7 +28164,7 @@
 			<Placemark>
 				<name>I11C79c1d2b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28728,7 +28248,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -28744,7 +28264,7 @@
 			<Placemark>
 				<name>I11C79c2a3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28774,7 +28294,7 @@
 			<Placemark>
 				<name>I11C79c1b4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28804,7 +28324,7 @@
 			<Placemark>
 				<name>I11C79c1b4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28834,7 +28354,7 @@
 			<Placemark>
 				<name>I11C79c1b3d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28864,7 +28384,7 @@
 			<Placemark>
 				<name>I11C79c1b3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28894,7 +28414,7 @@
 			<Placemark>
 				<name>I11C79c1a4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28924,7 +28444,7 @@
 			<Placemark>
 				<name>I11D61e4c1b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28954,7 +28474,7 @@
 			<Placemark>
 				<name>I11D61e4a3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -28984,7 +28504,7 @@
 			<Placemark>
 				<name>I11D61e3b4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29014,7 +28534,7 @@
 			<Placemark>
 				<name>I11D61e4c1a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29044,7 +28564,7 @@
 			<Placemark>
 				<name>I11D61e3d2b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29074,7 +28594,7 @@
 			<Placemark>
 				<name>I11D61e4c1d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29104,7 +28624,7 @@
 			<Placemark>
 				<name>I11D61e4c1c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29134,7 +28654,7 @@
 			<Placemark>
 				<name>I11D61e3d2d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29164,7 +28684,7 @@
 			<Placemark>
 				<name>I11D61e4c3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29248,7 +28768,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -29318,7 +28838,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -29388,7 +28908,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -29404,7 +28924,7 @@
 			<Placemark>
 				<name>I11D71b2b1d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29434,7 +28954,7 @@
 			<Placemark>
 				<name>I11D71b2b1c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29464,7 +28984,7 @@
 			<Placemark>
 				<name>I11D71b2a2d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29548,7 +29068,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -29618,7 +29138,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -29688,7 +29208,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -29704,7 +29224,7 @@
 			<Placemark>
 				<name>I11D71b2b4b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29734,7 +29254,7 @@
 			<Placemark>
 				<name>I11D71b2b4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29764,7 +29284,7 @@
 			<Placemark>
 				<name>I11D71b2b3b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29794,7 +29314,7 @@
 			<Placemark>
 				<name>I11D71b2b3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -29878,7 +29398,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -29948,7 +29468,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -30018,7 +29538,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -30034,7 +29554,7 @@
 			<Placemark>
 				<name>I11D71b2b4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30064,7 +29584,7 @@
 			<Placemark>
 				<name>I11D71b2b4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30094,7 +29614,7 @@
 			<Placemark>
 				<name>I11D71b2b3d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30124,7 +29644,7 @@
 			<Placemark>
 				<name>I11D71b2b3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30154,7 +29674,7 @@
 			<Placemark>
 				<name>I11D71b2d2b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30184,7 +29704,7 @@
 			<Placemark>
 				<name>I11D71b2d2a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30268,7 +29788,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -30284,7 +29804,7 @@
 			<Placemark>
 				<name>I11D71b2d1a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30314,7 +29834,7 @@
 			<Placemark>
 				<name>I11D71b2c2b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30398,7 +29918,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -30468,7 +29988,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -30538,7 +30058,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -30554,7 +30074,7 @@
 			<Placemark>
 				<name>I11D71b2c2c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30638,7 +30158,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<MultiGeometry>
 					<Polygon>
 						<outerBoundaryIs>
@@ -30654,7 +30174,7 @@
 			<Placemark>
 				<name>I11D71b3a1a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30684,7 +30204,7 @@
 			<Placemark>
 				<name>I11D71a2d4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30714,7 +30234,7 @@
 			<Placemark>
 				<name>I11D71a2d4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30744,7 +30264,7 @@
 			<Placemark>
 				<name>I11D71a2d4b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30774,7 +30294,7 @@
 			<Placemark>
 				<name>I11D71a2d2d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30804,7 +30324,7 @@
 			<Placemark>
 				<name>I11D71a2d2c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30834,7 +30354,7 @@
 			<Placemark>
 				<name>I11D71a2d2b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30864,7 +30384,7 @@
 			<Placemark>
 				<name>I11D71a2d2a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30894,7 +30414,7 @@
 			<Placemark>
 				<name>I11D71a2b4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30924,7 +30444,7 @@
 			<Placemark>
 				<name>I11D71a2b4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30954,7 +30474,7 @@
 			<Placemark>
 				<name>I11D71a2b4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -30984,7 +30504,7 @@
 			<Placemark>
 				<name>I11C79c1a4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31014,7 +30534,7 @@
 			<Placemark>
 				<name>I11C79c1a3b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31044,7 +30564,7 @@
 			<Placemark>
 				<name>I11C79c1a1d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31074,7 +30594,7 @@
 			<Placemark>
 				<name>I11C79c1a1c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31104,7 +30624,7 @@
 			<Placemark>
 				<name>I11C79c1a1a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31134,7 +30654,7 @@
 			<Placemark>
 				<name>I11C79b2b2b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31164,7 +30684,7 @@
 			<Placemark>
 				<name>I11C79b2b2a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31194,7 +30714,7 @@
 			<Placemark>
 				<name>I11C69f3a4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31224,7 +30744,7 @@
 			<Placemark>
 				<name>I11C69f3a3d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31254,7 +30774,7 @@
 			<Placemark>
 				<name>I11C69f3a3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31284,7 +30804,7 @@
 			<Placemark>
 				<name>I11C69e4b4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31314,7 +30834,7 @@
 			<Placemark>
 				<name>I11C69e4b4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31344,7 +30864,7 @@
 			<Placemark>
 				<name>I11C69f3c1a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31374,7 +30894,7 @@
 			<Placemark>
 				<name>I11C69e4d2b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31404,7 +30924,7 @@
 			<Placemark>
 				<name>I11C69e4d2a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31434,7 +30954,7 @@
 			<Placemark>
 				<name>I11C69f3c1c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31464,7 +30984,7 @@
 			<Placemark>
 				<name>I11C69e4d2d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31494,7 +31014,7 @@
 			<Placemark>
 				<name>I11C69e4d2c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31524,7 +31044,7 @@
 			<Placemark>
 				<name>I11C69f3c2a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31554,7 +31074,7 @@
 			<Placemark>
 				<name>I11C69f3c1b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31584,7 +31104,7 @@
 			<Placemark>
 				<name>I11C69f3c2c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31614,7 +31134,7 @@
 			<Placemark>
 				<name>I11C69f3c1d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31644,7 +31164,7 @@
 			<Placemark>
 				<name>I11C69f3c4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31674,7 +31194,7 @@
 			<Placemark>
 				<name>I11C69f3c3b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31704,7 +31224,7 @@
 			<Placemark>
 				<name>I11C69f3c3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31734,7 +31254,7 @@
 			<Placemark>
 				<name>I11C69e4d4b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31764,7 +31284,7 @@
 			<Placemark>
 				<name>I11C69e4d4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31794,7 +31314,7 @@
 			<Placemark>
 				<name>I11C69f3c4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31824,7 +31344,7 @@
 			<Placemark>
 				<name>I11C69f3c3d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31854,7 +31374,7 @@
 			<Placemark>
 				<name>I11C69f3c3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31884,7 +31404,7 @@
 			<Placemark>
 				<name>I11C69e4d4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31914,7 +31434,7 @@
 			<Placemark>
 				<name>I11C69e4d4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31944,7 +31464,7 @@
 			<Placemark>
 				<name>I11D71a2d3b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -31974,7 +31494,7 @@
 			<Placemark>
 				<name>I11D71a2d1d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32004,7 +31524,7 @@
 			<Placemark>
 				<name>I11D71a2d3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32034,7 +31554,7 @@
 			<Placemark>
 				<name>I11D71a2d1c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32064,7 +31584,7 @@
 			<Placemark>
 				<name>I11D71a2c2d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32094,7 +31614,7 @@
 			<Placemark>
 				<name>I11D71a2c2c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32124,7 +31644,7 @@
 			<Placemark>
 				<name>I11D71a2c2a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32154,7 +31674,7 @@
 			<Placemark>
 				<name>I11D71a2c1b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32184,7 +31704,7 @@
 			<Placemark>
 				<name>I11D71a2c1d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32214,7 +31734,7 @@
 			<Placemark>
 				<name>I11D71a2c1c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32244,7 +31764,7 @@
 			<Placemark>
 				<name>I11D71a2c3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32274,7 +31794,7 @@
 			<Placemark>
 				<name>I11D71a1b1b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32304,7 +31824,7 @@
 			<Placemark>
 				<name>I11D71a1b1a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32334,7 +31854,7 @@
 			<Placemark>
 				<name>I11D71a1a2b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32364,7 +31884,7 @@
 			<Placemark>
 				<name>I11D71a1b2c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32394,7 +31914,7 @@
 			<Placemark>
 				<name>I11D71a1b1d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32424,7 +31944,7 @@
 			<Placemark>
 				<name>I11D71a1b1c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32454,7 +31974,7 @@
 			<Placemark>
 				<name>I11D71a1b4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32484,7 +32004,7 @@
 			<Placemark>
 				<name>I11D71a1b3b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32514,7 +32034,7 @@
 			<Placemark>
 				<name>I11D71a1b3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32544,7 +32064,7 @@
 			<Placemark>
 				<name>I11D71a1a4b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32574,7 +32094,7 @@
 			<Placemark>
 				<name>I11D71a2a3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32604,7 +32124,7 @@
 			<Placemark>
 				<name>I11D71a1b4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32634,7 +32154,7 @@
 			<Placemark>
 				<name>I11D71a1b4c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32664,7 +32184,7 @@
 			<Placemark>
 				<name>I11D71a1b3d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32694,7 +32214,7 @@
 			<Placemark>
 				<name>I11D71a1b3c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32724,7 +32244,7 @@
 			<Placemark>
 				<name>I11D71a1a4d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32754,7 +32274,7 @@
 			<Placemark>
 				<name>I11D71a1d2a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32784,7 +32304,7 @@
 			<Placemark>
 				<name>I11D71a1d1b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32814,7 +32334,7 @@
 			<Placemark>
 				<name>I11D71a1d1a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32844,7 +32364,7 @@
 			<Placemark>
 				<name>I11D71a1c2b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32874,7 +32394,7 @@
 			<Placemark>
 				<name>I11D71a1c2d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32904,7 +32424,7 @@
 			<Placemark>
 				<name>I11D71a1d1c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32934,7 +32454,7 @@
 			<Placemark>
 				<name>I11D71a1d1d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32964,7 +32484,7 @@
 			<Placemark>
 				<name>I11D71a1d2c</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -32994,7 +32514,7 @@
 			<Placemark>
 				<name>I11D71a1d2d</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -33024,7 +32544,7 @@
 			<Placemark>
 				<name>I11D71a1d4b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -33054,7 +32574,7 @@
 			<Placemark>
 				<name>I11D71a1d4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -33084,7 +32604,7 @@
 			<Placemark>
 				<name>I11D71a1d3b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -33114,7 +32634,7 @@
 			<Placemark>
 				<name>I11D71a1d3a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -33144,7 +32664,7 @@
 			<Placemark>
 				<name>I11D71a1c4b</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -33174,7 +32694,7 @@
 			<Placemark>
 				<name>I11D71a1c4a</name>
 				<open>1</open>
-				<styleUrl>#PolyStyle003000000</styleUrl>
+				<styleUrl>#PolyStyle00300000</styleUrl>
 				<ExtendedData>
 					<SchemaData schemaUrl="#malla_proyecto_tijuana_2025">
 						<SimpleData name="OID_">0</SimpleData>
@@ -33204,6 +32724,502 @@
 		</Folder>
 		<Folder>
 			<name>Hechas_Puntos_Fotos</name>
+			<Placemark id="ID_00002">
+				<name>2002</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2002</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle000210</styleUrl>
+				<Point>
+					<coordinates>-117.1145833331401,32.45703124248688,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00023">
+				<name>2023</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2023</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle000210</styleUrl>
+				<Point>
+					<coordinates>-117.1076388888103,32.45703124248691,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00025">
+				<name>2025</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>25</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2025</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle000210</styleUrl>
+				<Point>
+					<coordinates>-117.1006944440309,32.45703124248695,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00031">
+				<name>2031</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>31</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2031</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle000210</styleUrl>
+				<Point>
+					<coordinates>-117.0937499992515,32.45703124248697,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00033">
+				<name>2033</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>33</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2033</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle000210</styleUrl>
+				<Point>
+					<coordinates>-117.0868055549217,32.45703124248699,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00000">
+				<name>2000</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2000</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle000210</styleUrl>
+				<Point>
+					<coordinates>-117.1145833331401,32.44921874240082,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00020">
+				<name>2020</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2020</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle000210</styleUrl>
+				<Point>
+					<coordinates>-117.1076388888104,32.44921874240085,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00022">
+				<name>2022</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>22</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2022</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle000210</styleUrl>
+				<Point>
+					<coordinates>-117.1006944440309,32.44921874240089,0</coordinates>
+				</Point>
+			</Placemark>
 			<Placemark id="ID_00028">
 				<name>2028</name>
 				<open>1</open>
