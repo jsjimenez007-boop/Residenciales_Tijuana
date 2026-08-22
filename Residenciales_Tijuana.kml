@@ -26,19 +26,6 @@
 		<SimpleField type="float" name="YMax">
 		</SimpleField>
 	</Schema>
-	<Style id="IconStyle000100010">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<PolyStyle>
-			<color>ff000000</color>
-			<outline>0</outline>
-		</PolyStyle>
-	</Style>
 	<Style id="IconStyle0001000100">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -52,20 +39,35 @@
 			<outline>0</outline>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="IconStyle0002100">
+	<Style id="IconStyle00010001000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="IconStyle00021000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#IconStyle0001000100</styleUrl>
+			<styleUrl>#IconStyle00010001000</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#IconStyle0010100</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="IconStyle00021000">
+	<StyleMap id="IconStyle0002100">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#IconStyle000100010</styleUrl>
+			<styleUrl>#IconStyle0001000100</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -76,10 +78,12 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 		<PolyStyle>
 			<color>ff000000</color>
 			<outline>0</outline>
@@ -89,7 +93,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -284,20 +288,20 @@
 			<styleUrl>#PolyStyle00111110000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="PolyStyle0001020010">
+	<StyleMap id="PolyStyle00010200100">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#PolyStyle00240002000001</styleUrl>
+			<styleUrl>#PolyStyle002400020000010</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#PolyStyle00111110001</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="PolyStyle00010200100">
+	<StyleMap id="PolyStyle0001020010">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#PolyStyle002400020000010</styleUrl>
+			<styleUrl>#PolyStyle00240002000001</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
@@ -426,19 +430,19 @@
 			<color>6600ffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="PolyStyle001111100010">
+	<Style id="PolyStyle00111110001">
 		<LabelStyle>
 			<color>00000000</color>
 			<scale>0</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>ff0000ff</color>
+			<color>ff7f55ff</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>660055ff</color>
+			<color>660000ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="PolyStyle00111110001">
+	<Style id="PolyStyle001111100010">
 		<LabelStyle>
 			<color>00000000</color>
 			<scale>0</scale>
@@ -529,10 +533,10 @@
 			<scale>0</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>ff0000ff</color>
+			<color>ff7f55ff</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>660055ff</color>
+			<color>660000ff</color>
 		</PolyStyle>
 	</Style>
 	<Style id="PolyStyle00240002000100">
@@ -588,16 +592,6 @@
 			<color>66f08c2d</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="m_ylw-pushpin010">
 		<Pair>
 			<key>normal</key>
@@ -628,15 +622,6 @@
 			<styleUrl>#sh_ylw-pushpin60</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
 	<Style id="s_ylw-pushpin00000">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -653,15 +638,6 @@
 			<color>ff0055ff</color>
 			<fill>0</fill>
 		</PolyStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl0000">
 		<IconStyle>
@@ -753,493 +729,9 @@
 		<open>1</open>
 		<Folder>
 			<name>Malla_Julio</name>
-			<open>1</open>
 			<Folder id="FeatureLayer0">
 				<name>MALLA_AGREGADA</name>
 				<Snippet maxLines="0"></Snippet>
-				<Placemark id="ID_00071">
-					<name>I11D71b3a4a</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b3a4a</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>71</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b3a4a</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0001020010</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.8680555549199,32.41406249928497,0 -116.8680555549199,32.4218749998314,0 -116.8749999992505,32.4218749998314,0 -116.8749999992505,32.41406249928497,0 -116.8680555549199,32.41406249928497,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00072">
-					<name>I11D71b3a4d</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b3a4d</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>72</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b3a4d</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0001020010</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.8611111105893,32.40624999963786,0 -116.8611111105893,32.41406249928497,0 -116.8680555549199,32.41406249928497,0 -116.8680555549199,32.40624999963786,0 -116.8611111105893,32.40624999963786,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00073">
-					<name>I11D71b3a4b</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b3a4b</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>73</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b3a4b</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0001020010</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.8611111105893,32.41406249928497,0 -116.8611111105893,32.42187499983141,0 -116.8680555549199,32.4218749998314,0 -116.8680555549199,32.41406249928497,0 -116.8611111105893,32.41406249928497,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00076">
-					<name>I11D71b3b3c</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b3b3c</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>76</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b3b3c</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0001020010</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.8541666662586,32.40624999963785,0 -116.8541666662586,32.41406249928498,0 -116.8611111105893,32.41406249928497,0 -116.8611111105893,32.40624999963786,0 -116.8541666662586,32.40624999963785,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00077">
-					<name>I11D71b3b3a</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b3b3a</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>77</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b3b3a</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0001020010</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.8541666662586,32.41406249928498,0 -116.8541666662586,32.42187499983141,0 -116.8611111105893,32.42187499983141,0 -116.8611111105893,32.41406249928497,0 -116.8541666662586,32.41406249928498,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00078">
-					<name>I11D71b3b3d</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b3b3d</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>78</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b3b3d</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0001020010</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.847222221928,32.40624999963785,0 -116.847222221928,32.41406249928497,0 -116.8541666662586,32.41406249928498,0 -116.8541666662586,32.40624999963785,0 -116.847222221928,32.40624999963785,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00079">
-					<name>I11D71b3b3b</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b3b3b</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>79</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b3b3b</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0001020010</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.847222221928,32.41406249928497,0 -116.847222221928,32.4218749998314,0 -116.8541666662586,32.42187499983141,0 -116.8541666662586,32.41406249928498,0 -116.847222221928,32.41406249928497,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
 				<Placemark id="ID_00081">
 					<name>I11D71b3b1a</name>
 					<Snippet maxLines="0"></Snippet>
@@ -1441,75 +933,6 @@
 								<LinearRing>
 									<coordinates>
 										-116.847222221928,32.42968749947858,0 -116.847222221928,32.437500000025,0 -116.8541666662586,32.43750000002501,0 -116.8541666662586,32.42968749947857,0 -116.847222221928,32.42968749947858,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00084">
-					<name>I11D71b3b4a</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b3b4a</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>84</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b3b4a</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0001020010</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.8402777775974,32.41406249928497,0 -116.8402777775974,32.4218749998314,0 -116.847222221928,32.4218749998314,0 -116.847222221928,32.41406249928497,0 -116.8402777775974,32.41406249928497,0 
 									</coordinates>
 								</LinearRing>
 							</outerBoundaryIs>
@@ -2555,433 +1978,6 @@
 			<Folder id="FeatureLayer0">
 				<name>PuntosMalla_G</name>
 				<Snippet maxLines="0"></Snippet>
-				<Placemark id="ID_00071">
-					<name>2071</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>71</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2071</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle0002100</styleUrl>
-					<Point>
-						<coordinates>-116.8715277771008,32.41796874250606,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00072">
-					<name>2072</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>72</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2072</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle0002100</styleUrl>
-					<Point>
-						<coordinates>-116.864583332771,32.41015624241997,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00073">
-					<name>2073</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>73</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2073</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle0002100</styleUrl>
-					<Point>
-						<coordinates>-116.864583332771,32.41796874250603,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00076">
-					<name>2076</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>76</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2076</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle0002100</styleUrl>
-					<Point>
-						<coordinates>-116.8576388884412,32.41015624241992,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00077">
-					<name>2077</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>77</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2077</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle0002100</styleUrl>
-					<Point>
-						<coordinates>-116.8576388884412,32.41796874250598,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00078">
-					<name>2078</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>78</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2078</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle0002100</styleUrl>
-					<Point>
-						<coordinates>-116.8506944441114,32.41015624241987,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00079">
-					<name>2079</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>79</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2079</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle0002100</styleUrl>
-					<Point>
-						<coordinates>-116.8506944441114,32.41796874250594,0</coordinates>
-					</Point>
-				</Placemark>
 				<Placemark id="ID_00081">
 					<name>2081</name>
 					<Snippet maxLines="0"></Snippet>
@@ -3163,67 +2159,6 @@
 					<styleUrl>#IconStyle0002100</styleUrl>
 					<Point>
 						<coordinates>-116.8506944441115,32.43359374267813,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark id="ID_00084">
-					<name>2084</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td></td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>84</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>ORIG_FID</td>
-
-<td>2084</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#IconStyle0002100</styleUrl>
-					<Point>
-						<coordinates>-116.8437499997816,32.4179687425059,0</coordinates>
 					</Point>
 				</Placemark>
 				<Placemark id="ID_00085">
@@ -13660,6 +12595,566 @@
 		</Folder>
 		<Folder>
 			<name>Hechas_Cartas_Fotos</name>
+			<Placemark id="ID_00078">
+				<name>I11D71b3b3d</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11D71b3b3d</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>78</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11D71b3b3d</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00010200100</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.847222221928,32.40624999963785,0 -116.847222221928,32.41406249928497,0 -116.8541666662586,32.41406249928498,0 -116.8541666662586,32.40624999963785,0 -116.847222221928,32.40624999963785,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00076">
+				<name>I11D71b3b3c</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11D71b3b3c</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>76</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11D71b3b3c</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00010200100</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.8541666662586,32.40624999963785,0 -116.8541666662586,32.41406249928498,0 -116.8611111105893,32.41406249928497,0 -116.8611111105893,32.40624999963786,0 -116.8541666662586,32.40624999963785,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00072">
+				<name>I11D71b3a4d</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11D71b3a4d</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>72</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11D71b3a4d</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00010200100</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.8611111105893,32.40624999963786,0 -116.8611111105893,32.41406249928497,0 -116.8680555549199,32.41406249928497,0 -116.8680555549199,32.40624999963786,0 -116.8611111105893,32.40624999963786,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00084">
+				<name>I11D71b3b4a</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11D71b3b4a</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>84</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11D71b3b4a</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00010200100</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.8402777775974,32.41406249928497,0 -116.8402777775974,32.4218749998314,0 -116.847222221928,32.4218749998314,0 -116.847222221928,32.41406249928497,0 -116.8402777775974,32.41406249928497,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00079">
+				<name>I11D71b3b3b</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11D71b3b3b</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>79</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11D71b3b3b</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00010200100</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.847222221928,32.41406249928497,0 -116.847222221928,32.4218749998314,0 -116.8541666662586,32.42187499983141,0 -116.8541666662586,32.41406249928498,0 -116.847222221928,32.41406249928497,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00077">
+				<name>I11D71b3b3a</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11D71b3b3a</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>77</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11D71b3b3a</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00010200100</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.8541666662586,32.41406249928498,0 -116.8541666662586,32.42187499983141,0 -116.8611111105893,32.42187499983141,0 -116.8611111105893,32.41406249928497,0 -116.8541666662586,32.41406249928498,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00073">
+				<name>I11D71b3a4b</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11D71b3a4b</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>73</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11D71b3a4b</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00010200100</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.8611111105893,32.41406249928497,0 -116.8611111105893,32.42187499983141,0 -116.8680555549199,32.4218749998314,0 -116.8680555549199,32.41406249928497,0 -116.8611111105893,32.41406249928497,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
+			<Placemark id="ID_00071">
+				<name>I11D71b3a4a</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>I11D71b3a4a</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>71</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>CLAVE1KTIJ</td>
+
+<td>I11D71b3a4a</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#PolyStyle00010200100</styleUrl>
+				<MultiGeometry>
+					<Polygon>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-116.8680555549199,32.41406249928497,0 -116.8680555549199,32.4218749998314,0 -116.8749999992505,32.4218749998314,0 -116.8749999992505,32.41406249928497,0 -116.8680555549199,32.41406249928497,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</MultiGeometry>
+			</Placemark>
 			<Placemark id="ID_00162">
 				<name>I11D71a2d3d</name>
 				<open>1</open>
@@ -31483,6 +30978,502 @@
 		</Folder>
 		<Folder>
 			<name>Hechas_Puntos_Fotos</name>
+			<Placemark id="ID_00078">
+				<name>2078</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>78</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2078</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00021000</styleUrl>
+				<Point>
+					<coordinates>-116.8506944441114,32.41015624241987,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00076">
+				<name>2076</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>76</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2076</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00021000</styleUrl>
+				<Point>
+					<coordinates>-116.8576388884412,32.41015624241992,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00072">
+				<name>2072</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>72</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2072</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00021000</styleUrl>
+				<Point>
+					<coordinates>-116.864583332771,32.41015624241997,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00084">
+				<name>2084</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>84</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2084</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00021000</styleUrl>
+				<Point>
+					<coordinates>-116.8437499997816,32.4179687425059,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00079">
+				<name>2079</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>79</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2079</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00021000</styleUrl>
+				<Point>
+					<coordinates>-116.8506944441114,32.41796874250594,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00077">
+				<name>2077</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>77</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2077</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00021000</styleUrl>
+				<Point>
+					<coordinates>-116.8576388884412,32.41796874250598,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00073">
+				<name>2073</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>73</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2073</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00021000</styleUrl>
+				<Point>
+					<coordinates>-116.864583332771,32.41796874250603,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ID_00071">
+				<name>2071</name>
+				<open>1</open>
+				<Snippet maxLines="0"></Snippet>
+				<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td></td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>71</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ORIG_FID</td>
+
+<td>2071</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+				<styleUrl>#IconStyle00021000</styleUrl>
+				<Point>
+					<coordinates>-116.8715277771008,32.41796874250606,0</coordinates>
+				</Point>
+			</Placemark>
 			<Placemark id="ID_00162">
 				<name>2162</name>
 				<open>1</open>
@@ -31540,7 +31531,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#IconStyle0002100</styleUrl>
+				<styleUrl>#IconStyle00021000</styleUrl>
 				<Point>
 					<coordinates>-116.9062499996493,32.44140624276449,0</coordinates>
 				</Point>
@@ -31602,7 +31593,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#IconStyle0002100</styleUrl>
+				<styleUrl>#IconStyle00021000</styleUrl>
 				<Point>
 					<coordinates>-116.8576388884413,32.42578124259209,0</coordinates>
 				</Point>
@@ -31664,7 +31655,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#IconStyle0002100</styleUrl>
+				<styleUrl>#IconStyle00021000</styleUrl>
 				<Point>
 					<coordinates>-116.8645833327711,32.42578124259214,0</coordinates>
 				</Point>
@@ -31726,7 +31717,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#IconStyle0002100</styleUrl>
+				<styleUrl>#IconStyle00021000</styleUrl>
 				<Point>
 					<coordinates>-116.8715277771009,32.42578124259217,0</coordinates>
 				</Point>
@@ -31788,7 +31779,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#IconStyle0002100</styleUrl>
+				<styleUrl>#IconStyle00021000</styleUrl>
 				<Point>
 					<coordinates>-116.8784722218803,32.42578124259221,0</coordinates>
 				</Point>
@@ -31850,7 +31841,7 @@
 </body>
 
 </html>]]></description>
-				<styleUrl>#IconStyle0002100</styleUrl>
+				<styleUrl>#IconStyle00021000</styleUrl>
 				<Point>
 					<coordinates>-116.8854166666598,32.42578124259224,0</coordinates>
 				</Point>
@@ -65667,7 +65658,7 @@
 					<range>5357.062752379772</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<styleUrl>#IconStyle00021000</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-116.8920518506718,32.43365631803121,0</coordinates>
